@@ -67,7 +67,7 @@ export default function LanyardCard() {
           <div className="mx-auto mb-4 h-1.5 w-14 rounded-full bg-ink" />
           <div className="mb-4 h-44 overflow-hidden rounded-xl border border-line bg-card dark:bg-ink/60">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/Laya-ID.jpg" alt={SITE.name} draggable={false} className="h-full w-full object-cover object-[center_40%]" />
+            <img src="/Laya-ID.JPG" alt={SITE.name} draggable={false} className="h-full w-full object-cover object-[center_40%]" />
           </div>
           <p className="text-lg font-semibold leading-tight text-white">{SITE.name}</p>
           <p className="mt-1 text-xs text-neutral-400">BS Information Technology</p>
