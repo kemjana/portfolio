@@ -15,7 +15,7 @@ export default function Contact() {
   // If no key is set yet, falls back to opening the visitor's email app.
   const submit = async (e) => {
     e.preventDefault();
-    const key = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
+    const key = SITE.web3formsKey;
 
     if (!key) {
       const subject = encodeURIComponent(`Portfolio message from ${form.name}`);

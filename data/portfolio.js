@@ -10,6 +10,7 @@ export const SITE = {
   github: "https://github.com/kemjana",
   linkedin: "https://www.linkedin.com/in/kim-janna-laya-52a178388",
   resume: "/Laya-Resume.pdf", // file lives in /public
+  web3formsKey: "c0214caf-c113-45aa-b94b-ee84351fb400",
 };
 
 export const HERO_TAGS = ["Cybersecurity", "Vibe Coding", "Networking", "Cisco", "Proxmox"];
